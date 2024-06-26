@@ -1,0 +1,30 @@
+.banner-inferior{
+    background-image: var(--cor-gradiente-azul);
+    padding: 1em;
+    text-align: center;
+}
+
+.banner-inferior__titulo{
+    color: var(--cor-branco);
+    font-weight: 300;
+    padding: 1em;
+}
+
+.banner-inferior__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-inferior__lista__botoes{
+    margin: 1.2em 0.5em;
+}
+
+.banner-inferior__lista_links{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--cor-branco);
+    padding: 1em 1.2em;    
+    background-color: var(--cor-laranja);
+}

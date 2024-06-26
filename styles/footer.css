@@ -1,0 +1,12 @@
+hr{
+    margin: 0;
+}
+
+.footer{
+    background-color: var(--cor-branco-footer);
+}
+
+.footer__titulo{
+    padding: 1em;
+
+}
