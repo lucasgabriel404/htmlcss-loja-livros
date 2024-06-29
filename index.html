@@ -25,8 +25,32 @@
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">DESIGN & UX</a></li>
             </ul>    
             <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
-        <div class="container"><a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="container__botao__opcoes">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">PROGRAMAÇÃO</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">FRONT-END</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">INFRAESTRUTURA</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">BUSINESS</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">DESIGN & UX</a></li>
+            </ul>
+
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+        </ul>
+
+
+
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
             <a href="#"><img src="img/Usuario.svg" alt="Meu Perfil" class="container__imagem"></a>
         </div>        
@@ -139,24 +163,43 @@
         </ul>
     </section>
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
     <hr/>
     <footer class="footer">
         <h2 class="footer__titulo"> Desenvolvido por Lucas.</h2>
+        <ul class="footer__lista">
+            <li class="footer__lista-titulo">EDUCAÇÃO</li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/Caelum.svg" class="footer__lista-item__imagem">Caelum</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/CasaDoCodigo.svg" class="footer__lista-item__imagem">Casa do Código</a></li>
+        </ul>
+        <ul class="footer__lista">
+            <li class="footer__lista-titulo">EDUCAÇÃO ONLINE</li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/Alura.svg" class="footer__lista-item__imagem">Alura</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/AluraEmpresas.svg" class="footer__lista-item__imagem">Alura para Empresas</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/AluraLATAM.svg" class="footer__lista-item__imagem">Alura LATAM</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/AluraStart.svg" class="footer__lista-item__imagem">Alura Start</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/MusicDot.svg" class="footer__lista-item__imagem">MusicDot</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/AluraLingua.svg" class="footer__lista-item__imagem">Alura Língua</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/PM3.svg" class="footer__lista-item__imagem">PM3</a></li>
+        </ul>
+        <ul class="footer__lista">
+            <li class="footer__lista-titulo">COMUNIDADE</li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/HipstersTech.svg" class="footer__lista-item__imagem">Hipsters ponto Tech</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/ScubaDev.svg" class="footer__lista-item__imagem">Scuba Dev</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/LayersTech.svg" class="footer__lista-item__imagem">Layers ponto Tech</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/LikeABoss.svg" class="footer__lista-item__imagem">Like a Boss</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/CarreiraSemFronteira.svg" class="footer__lista-item__imagem">Carreira sem Fronteira</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/HipstersJobs.svg" class="footer__lista-item__imagem">Hipsters ponto Jobs</a></li>
+            <li class="footer__lista-item"><a href="#" class="footer__lista-item__link"><img src="img/GUJ.svg" class="footer__lista-item__imagem">GUJ</a></li>
+        </ul>
+
+
     </footer>
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>

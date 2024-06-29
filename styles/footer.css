@@ -10,3 +10,47 @@ hr{
     padding: 1em;
 
 }
+
+.footer__lista{
+    display: none;
+}
+@media screen and (min-width:1024px){
+    .footer{
+        display: flex;
+        padding: 3em 1em;
+        justify-content:space-around;
+    }
+    
+    .footer__titulo{
+        font-size: 1.5rem;
+    }
+    .footer__lista{
+        display: block;
+    }
+
+    .footer__lista-titulo{
+        font-size: 0.8rem;
+        color: var(--cor-cinza);
+        padding: 1em 0;
+    }
+
+    .footer__lista-item{
+        padding: 0.5em 0;
+        align-items: center;
+    }
+
+    .footer__lista-item__imagem{
+        vertical-align: middle ;
+        margin-right: 1em;
+
+    }
+
+    .footer__lista-item__link{
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: var(--cor-cinza-escuro);        
+    }
+
+
+
+}
