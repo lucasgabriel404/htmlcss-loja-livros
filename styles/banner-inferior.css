@@ -42,3 +42,10 @@
     margin: 2.4em 0.8em;
     }
 }
+
+@media screen and (min-width:1728px) {
+    .banner-inferior{
+        padding: 3em 25vw;
+    }
+    
+}

@@ -117,8 +117,36 @@
     .botoes__ancora{
         width: 35%;
     }
+}
 
-    
+@media screen and (min-width:1728px){
+    .carrossel__container{
+        display: flex;
+        margin: 2em 10vw;
+        align-items: center;
+    }
 
+    .swiper-pagination{
+        margin: 1em 0 1em 0;
+    }
 
+    .swiper{
+        width:40%;
+    }
+
+    .descricao{
+        margin-right: 2em;
+    }
+
+    .descricao__titulo{
+        font-size: 2rem;
+    }
+
+    .descricao_texto{
+        font-size: 1rem;
+    }
+
+    .botoes__ancora{
+        width: 28%;
+    }
 }
